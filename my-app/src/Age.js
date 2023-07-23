@@ -1,7 +1,7 @@
-import React from "react";
+import React from "react"
 
 export class Age extends React.Component {
     render() {
-        return <p>Your age is {this.props.age}</p> 
+        return <p>{this.props.age > 18 ? `Your age is ${this.props.age}` : 'You are too young!'}</p>
     }
 }
