@@ -1,12 +1,8 @@
-import React from 'react';
-import { Hello } from './Hello';
-import { Comment } from './Comment'
+import React from "react";
+import { Welcome } from "./Welcome";
 
-export class App extends React.Component{
-    render(){
-        return <div>
-            <Hello />
-            <Comment />
-        </div>
+export class App extends React.Component {
+    render() {
+        return <Welcome name="Sandro" />
     }
 }
